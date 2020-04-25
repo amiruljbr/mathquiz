@@ -1,0 +1,78 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+.wrapper > div {
+    padding: 1rem;
+    border: 1px solid #000;
+}
+
+.top-title{
+    grid-column: 2/3;
+    background-color: peru;
+    box-shadow: 5px 5px 10px;
+}
+
+.math-logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.box-question{
+    background: #8e5000;
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.box-question p{
+    color: rgb(214, 235, 224);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.box-answer{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.box-answer > input:hover, .button-mulai:hover{
+    background-color: #ea5b2b;
+    color: #fff;
+}
+
+.text-answer {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: peru;
+    color: peru;
+}
+
+.mulai {
+    padding: : 16px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-mulai {
+    padding: : 18px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
